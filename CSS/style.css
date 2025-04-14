@@ -342,12 +342,34 @@ section.wishesSection .card-item:active {
     section.wishesSection .label h2 {
         position: initial;
     }
+
+    /* Gallery */
+    .gallery .container .img-box {
+        flex-direction: column;
+    }
+
+    .gallery .container .img-box .dream img {
+        border-radius: 50px;
+    }
+
+    .gallery .container .img-box .dream {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 571px) {
     section.hero .container .btn {
         width: 35%;
     }
+
+    .gallery .container .heading {
+        width: 80%;
+    }
+
+    .gallery .container h2 {
+        font-size: 2em;
+    }
+
 }
 
 @media screen and (max-width: 410px) {
