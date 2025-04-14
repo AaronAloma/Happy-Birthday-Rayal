@@ -13,7 +13,7 @@ new Swiper('.card-wrapper', {
 
   //Auto-scroll
   autoplay: {
-    delay: 1500,
+    delay: 1000,
     disableOnInteraction: false,
   },
 
