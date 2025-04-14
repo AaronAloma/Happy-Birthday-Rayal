@@ -386,9 +386,6 @@ section.wishesSection .card-item:active {
     }
 
     /* Gallery */
-    .gallery .container .img-box {
-        flex-direction: column;
-    }
 
     .gallery .container .img-box .dream img {
         border-radius: 50px;
