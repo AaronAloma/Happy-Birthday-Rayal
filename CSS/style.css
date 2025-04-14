@@ -120,7 +120,7 @@ header ul a:hover {
 
 /* HERO */
 section.hero {
-    min-height: 50vh;
+    min-height: 80vh;
     background-image: url(../Images/4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,6 +235,10 @@ section.wishesSection .card-item:active {
 
     header .container {
         justify-content: center;
+    }
+
+    section.hero {
+        height: 50vh;
     }
 
     /* Style for the responsive menu */
