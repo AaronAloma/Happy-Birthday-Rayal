@@ -386,9 +386,12 @@ section.wishesSection .card-item:active {
     }
 
     /* Gallery */
+    .gallery .container .img-box {
+        gap: 15px;
+    }
 
     .gallery .container .img-box .dream img {
-        border-radius: 50px;
+        border-radius: 5px;
     }
 
     .gallery .container .img-box .dream {
